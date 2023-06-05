@@ -9,8 +9,6 @@ Before running the script, make sure you have the following dependencies install
 - [Pandoc](https://pandoc.org/): A universal document converter
 - [XeLaTeX](https://www.latex-project.org/get/) (TeX Live or MiKTeX): A typesetting system for creating PDF documents
 
-Sure! Here's an updated section in the README file to mention the availability of an `images` folder:
-
 ## Usage
 
 To use this script, follow the steps below:
