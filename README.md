@@ -40,5 +40,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 - The script is inspired by the need to automate the generation of PDF reports from Markdown files.
 - Special thanks to Pandoc for providing a versatile document conversion tool.
-
-Feel free to modify this README file to suit your project's specific needs and provide any additional information that may be relevant.
+- 
