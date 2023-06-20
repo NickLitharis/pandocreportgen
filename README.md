@@ -8,6 +8,7 @@ Before running the script, make sure you have the following dependencies install
 
 - [Pandoc](https://pandoc.org/): A universal document converter
 - [XeLaTeX](https://www.latex-project.org/get/) (TeX Live or MiKTeX): A typesetting system for creating PDF documents
+- The necessary fonts for the document class you are using (e.g. [Arial](https://ctan.org/pkg/arial) for the `article` class)
 
 ## Usage
 
@@ -17,9 +18,9 @@ To use this script, follow the steps below:
 2. Open a terminal and navigate to the project directory.
 3. Make the script executable (if necessary) using the command: `chmod +x make.sh`
 4. If you have any images to include in the report, place them in the `images` folder within the project directory.
-5. Run the script with the following command: `./make.sh <input.md>`
+5. Run the script with the following command: `./make.sh src`
 
-Replace `<input.md>` with the path to your Markdown file. The script will generate a PDF report based on the provided Markdown file and the author metadata file (`report.yaml`). If you have any images referenced in your Markdown file, ensure that they are placed in the `images` folder. The generated PDF will be saved in the `pdf` directory.
+In the `src` folder add all your Markdown files. The script will generate a PDF report based on the provided Markdown files and the author metadata file (`template/report.yaml`). If you have any images referenced in your Markdown file, ensure that they are placed in the `images` folder. The generated PDF will be saved in the `build` directory.
 
 Please ensure that you update the Markdown file to reference the images correctly, using relative paths from the `images` folder. For example, if you have an image named `image.png` in the `images` folder, you can reference it in the Markdown file as `![Image](images/image.png)`.
 
