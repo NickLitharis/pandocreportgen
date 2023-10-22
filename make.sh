@@ -30,7 +30,7 @@ mkdir -p "$BUILDDIR"
 
 # Check if Calibri font is installed
 if fc-list : file | grep -i "arial.ttf" >/dev/null; then
-    FONT_OPTION="--variable=mainfont:Arial"
+    FONT_OPTION="--variable=mainfont:YourFontNameHere"
 else
     FONT_OPTION=""
 fi
