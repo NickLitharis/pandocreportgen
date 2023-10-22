@@ -9,6 +9,11 @@ Before running the `make.sh`, make sure to run the `reqs.sh` to install the foll
 - [Pandoc](https://pandoc.org/) : A universal document converter
 - [XeLaTeX](https://www.latex-project.org/get/) (TeX Live or MiKTeX): A typesetting system for creating PDF documents
 
+and create the following directories:
+- **images** : A directory to store all the images you want to include in your report
+- **src** : A directory to store all the markdown files you want to include in your report
+
+
 **Also do not forget to install the necessary fonts depending on the kind of document you are writing**
 
 ## Usage
