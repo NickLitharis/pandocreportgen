@@ -1,14 +1,15 @@
-# PandocReportGen
+# Pandoc Report Generator
 
 This project is a script for generating a PDF report from a Markdown file using Pandoc. It combines the contents of an input Markdown file and an author metadata file to create a formatted report in PDF format.
 
 ## Prerequisites
 
-Before running the script, make sure you have the following dependencies installed:
+Before running the `make.sh`, make sure to run the `reqs.sh` to install the following dependencies:
 
-- [Pandoc](https://pandoc.org/): A universal document converter
+- [Pandoc](https://pandoc.org/) : A universal document converter
 - [XeLaTeX](https://www.latex-project.org/get/) (TeX Live or MiKTeX): A typesetting system for creating PDF documents
-- The necessary fonts for the document class you are using (e.g. [Arial](https://ctan.org/pkg/arial) for the `article` class)
+
+**Also do not forget to install the necessary fonts depending on the kind of document you are writing**
 
 ## Usage
 
